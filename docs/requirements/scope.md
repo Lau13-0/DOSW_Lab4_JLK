@@ -29,7 +29,7 @@ El objetivo es crear una versión inicial que cumpla las reglas de negocio bási
 
 ### 3.1 Diagrama
 
-Adjunte la imagen del diagrama de contexto en `docs/uml/contexto.png` (o `contexto.pdf`) y actualice esta sección para referenciarla.
+Adjunte la imagen del diagrama de contexto en `docs/uml/Diagrama de Contexto.png` y actualice esta sección para referenciarla.
 
 ### 3.2 Actores
 
@@ -69,10 +69,8 @@ Adjunte la imagen del diagrama de contexto en `docs/uml/contexto.png` (o `contex
 
 ## 5. Notas y evidencias
 
-- Para el Diagrama de Contexto copie la imagen a `docs/uml/contexto.png` y referencia aquí.
-- Agregue capturas de ejecución y pruebas en `docs/images/`.
-- Este documento es una plantilla editable; reemplazar texto con información del equipo según avance el caso de estudio.
+- Para el Diagrama de Contexto copie la imagen a `docs/uml/Diagrama de Contexto.png` y referencia aquí.
 
-**Autor:** Equipo DOSW
+**Autor:** Juan Silva, Laura Castillo, Kevin Cuitiva
 **Fecha:** 2026-02-14
 
