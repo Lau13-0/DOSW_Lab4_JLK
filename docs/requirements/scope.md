@@ -27,7 +27,9 @@ El objetivo es crear una versión inicial que cumpla las reglas de negocio bási
 
 ### 3.1 Diagrama
 
-Adjunte la imagen del diagrama de contexto en `docs/uml/Diagrama de Contexto.png` y actualice esta sección para referenciarla.
+![Diagrama de Contexto](../uml/Diagrama%20de%20Contexto.png)
+
+Figura: Diagrama de contexto del sistema (archivo: `docs/uml/Diagrama de Contexto.png`).
 
 ### 3.2 Actores
 
