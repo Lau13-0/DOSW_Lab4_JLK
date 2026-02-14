@@ -1,7 +1,5 @@
 # DOSW_Lab4_JLK
 
-2. Resolver las siguientes preguntas en el README:
-
 a. ¿Qué es un arquetipo (Archetype) en Maven?
 
 Un arquetipo en Maven es una plantilla o mecanismo de generación de proyectos que permite crear la estructura inicial de un proyecto (directorios, archivos y un `pom.xml` básico) siguiendo un patrón predefinido. Los arquetipos facilitan la estandarización y el inicio rápido de nuevos proyectos.
