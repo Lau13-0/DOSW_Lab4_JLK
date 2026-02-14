@@ -67,10 +67,6 @@ Figura: Diagrama de contexto del sistema (archivo: `docs/uml/Diagrama de Context
 2. No procesa pasarelas de pago externas ni conciliaciones avanzadas.
 3. No gestiona notificaciones masivas (solo soporte para exportar datos a servicios externos).
 
-## 5. Notas y evidencias
-
-- Para el Diagrama de Contexto copie la imagen a `docs/uml/Diagrama de Contexto.png` y referencia aquí.
-
 **Autor:** Juan Silva, Laura Castillo, Kevin Cuitiva
 **Fecha:** 2026-02-14
 
