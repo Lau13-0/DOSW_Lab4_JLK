@@ -1,6 +1,4 @@
-# Requerimientos del Sistema — Alcance (scope.md)
-
-Ruta: DOSW-Laboratorio4/docs/requirements/scope.md
+# Requerimientos del Sistema 
 
 ## 1. Sistema
 
