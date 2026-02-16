@@ -13,7 +13,7 @@ Actualmente Bankify no cuenta con un sistema centralizado que permita:
 - Consultar el saldo de una cuenta.
 - Realizar depósitos de dinero de forma controlada.
 - Generar reportes tributarios en PDF para clientes.
-- Enviar reportes a la DIAN en formato JSON.
+- Enviar reportes a la DIAN.
 
 El objetivo es crear una versión inicial que cumpla las reglas de negocio básicas y permita validar el modelo antes de escalar a funcionalidades más complejas.
 
@@ -44,9 +44,9 @@ Figura: Diagrama de contexto del sistema (archivo: `docs/uml/Diagrama de Context
 | Sistema | Descripción |
 |--------:|-------------|
 | Repositorio GitHub | Aloja el código fuente y artefactos del proyecto. |
-| Servicio de CI (opcional) | Ejecuta compilaciones y pruebas automatizadas. |
+| Servicio de CI  | Ejecuta compilaciones y pruebas automatizadas. |
 | Servicio de generación de PDFs | Produce reportes tributarios en PDF para clientes. |
-| Servicio DIAN (export) | Endpoint al que se envían reportes en formato JSON. |
+| Servicio DIAN  | Endpoint al que se envían reportes tributarios. |
 
 ## 4. Alcance del sistema
 
@@ -66,10 +66,6 @@ Figura: Diagrama de contexto del sistema (archivo: `docs/uml/Diagrama de Context
 1. No gestiona infraestructura de despliegue en producción (p. ej. provisioning en la nube).
 2. No procesa pasarelas de pago externas ni conciliaciones avanzadas.
 3. No gestiona notificaciones masivas (solo soporte para exportar datos a servicios externos).
-
-## 5. Notas y evidencias
-
-- Para el Diagrama de Contexto copie la imagen a `docs/uml/Diagrama de Contexto.png` y referencia aquí.
 
 **Autor:** Juan Silva, Laura Castillo, Kevin Cuitiva
 **Fecha:** 2026-02-14
