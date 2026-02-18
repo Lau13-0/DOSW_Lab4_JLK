@@ -70,3 +70,56 @@ Figura: Diagrama de contexto del sistema (archivo: `docs/uml/Diagrama de Context
 **Autor:** Juan Silva, Laura Castillo, Kevin Cuitiva
 **Fecha:** 2026-02-14
 
+## 5. Parte 4 - Mockups y flujos de navegación
+
+### 5.1 Requerimiento funcional seleccionado
+
+Se seleccionó el requerimiento de **creación de cuenta de Administrador del banco** dentro del sistema Bankify.
+
+Este flujo contempla:
+
+- Validación de acceso administrativo.
+- Registro de datos personales y laborales del administrador.
+- Configuración de rol y permisos.
+- Configuración de seguridad (contraseña y MFA).
+- Confirmación y estado de aprobación de la solicitud.
+
+### 5.2 Mockups implementados (Figma)
+
+
+
+1. **Pantalla 1 - Secure Admin Access Entry**  
+	![Mockup 1](../images/mockup1.png)
+
+2. **Pantalla 2 - Administrator Identity & Employment Data**  
+	![Mockup 2](../images/mockup2.png)
+
+3. **Pantalla 3 - Role, Scope & Permissions (parte 1)**  
+	![Mockup 3.1](../images/mockup3.1.png)
+
+4. **Pantalla 3 - Role, Scope & Permissions (parte 2)**  
+	![Mockup 3.2](../images/mockup3.2.png)
+
+5. **Pantalla 4 - Security Setup & MFA**  
+	![Mockup 4](../images/mockup4.png)
+
+6. **Pantalla 5 - Review, Approval Status & Activation**  
+	![Mockup 5](../images/mockup5.png)
+
+> Nota: la pantalla 3 se dividió en `3.1` y `3.2` para mejorar legibilidad por tamaño del diseño original.
+
+### 5.3 Flujo de navegación definido
+
+1. **Pantalla 1 -> Pantalla 2**: validación de código de invitación y correo corporativo.
+2. **Pantalla 2 -> Pantalla 3 (3.1 / 3.2)**: captura de identidad y datos laborales.
+3. **Pantalla 3 -> Pantalla 4**: asignación de rol, alcance y permisos administrativos.
+4. **Pantalla 4 -> Pantalla 5**: configuración de seguridad, MFA y envío de solicitud.
+5. **Pantalla 5**: visualización de estado de aprobación y activación de cuenta de administrador.
+
+### 5.4 Criterios cumplidos de la Parte 4
+
+- Se diseñaron entre 3 y 5 pantallas funcionales (5 pantallas, con una dividida en 2 imágenes por tamaño).
+- Se incluyó identidad visual de Bankify (logo y estilo de marca).
+- Se especificó el flujo principal de navegación entre pantallas.
+- El diseño se alineó al requerimiento funcional seleccionado.
+
